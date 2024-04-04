@@ -75,7 +75,7 @@ const ShortenerForm = () => {
         <div className="mt-4">
           <p className="font-semibold">Shortened URL:</p>
           <input
-            className="w-full border border-gray-300 rounded-md px-4 py-2 mb-2 focus:outline-none focus:border-blue-500"
+            className="w-full border border-gray-300 rounded-md px-3 py-2 mb-2 focus:outline-none focus:border-blue-500"
             type="text"
             value={shortUrl}
             readOnly
